@@ -1,8 +1,4 @@
 import os
-from tkinter import HORIZONTAL
-from unicodedata import category
-from matplotlib.cbook import maxdict
-from matplotlib.pyplot import colormaps
 from numpy import reshape
 
 from tensorflow.core.framework.dataset_options_pb2 import OptimizationOptions
