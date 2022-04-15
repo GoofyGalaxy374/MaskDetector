@@ -25,10 +25,10 @@
 ### The reason that it is turned into grayscale is that with grayscale, the color channgel is single, thus we have to only train the network to see certain shades(pixel values) at certain positions on the input.
 
 ## **Regularizations**
-### After the input is set up to be accepted from the model, it is then regularized - the values that come from the input are put in between 0 and 1. 
+### After the input is set up to be accepted from the model, it is then regularized - the values that come from the input are put in between -1 and 1. 
 
 ## **Feeding the data to the network**
-### Finally, after all the preprocessing and regularuzations, the data is sent to the model which makes predictions upon it. The predictions are always numbers between 0 and 1, where 0 means an absolute certainty that the person isn't wearing a mask, and 1 means the opposite.
+### Finally, after all the preprocessing and regularuzations, the data is sent to the model which makes predictions upon it. The predictions are always numbers between -1 and 1, where -1 means an absolute certainty that the person isn't wearing a mask, and 1 means the opposite.
 
 ## **Visualization**
 ### The model's predictions are visible in real time on the user's screen, thanks to the openCV2 library.
