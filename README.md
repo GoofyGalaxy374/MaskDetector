@@ -58,3 +58,4 @@
 
 ## Sources
 ### The dataset utilized **is not mine**. You can access it from this Github Repo - https://github.com/prajnasb/observations/tree/master/experiements/data
+### The camera module is influenced by this one: https://github.com/niconielsen32/ComputerVision/blob/master/teachablemachineDeploy/handgestureClassification.py
